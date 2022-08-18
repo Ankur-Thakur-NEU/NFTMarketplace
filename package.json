@@ -10,6 +10,10 @@
     "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain wciosc5v5doe.usemoralis.com --frpcPath ./frp/frpc",
     "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisSubdomain wciosc5v5doe.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
   },
+  "engines" : { 
+    "npm" : ">=8.0.0",
+    "node" : ">=16.0.0"
+  },
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "graphql": "^14.7.0",
